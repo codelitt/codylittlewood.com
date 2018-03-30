@@ -1,0 +1,95 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+#
+# Build settings
+gems:
+  #- jemoji
+  - jekyll-paginate-v2
+  - jekyll-feed
+  - octopress-image-tag
+  #- octopress-video-tag
+  - octopress-codeblock
+  - octopress-quote-tag
+  - octopress-codefence
+  - octopress-solarized
+  - octopress-gist
+exclude:
+  - Gemfile
+  - Gemfile.lock
+permalink: /:title/
+
+# Site settings
+title: "Cody Littlewood - /.codelitt"
+description: Rants, raves, & ramblings about technology, innovation, R&D, business, software & building things for the web
+email: littlewoodcody@gmail.com
+#blog logo
+logo: "/assets/images/author.jpg"
+float_logo: true # true, false (default)
+
+# blog cover
+cover: "/assets/images/cl-header-santorini.jpeg"
+
+name: 'Cody Littlewood'
+author: 'Cody Littlewood'
+author_image: "/assets/images/author.jpg"
+
+pagination:
+  enabled: true
+  per_page:	5
+  sort_field: 'date'
+  sort_reverse: true
+
+
+
+url: "http://codylittlewood.com" # the base hostname & protocol for your site
+baseurl:
+#used to display twitter cards
+twitter_handle: '@codelitt'
+
+#fill in disqus shortname to use disqus
+disqus: codelitt
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/codelitt
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/codelitt
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:

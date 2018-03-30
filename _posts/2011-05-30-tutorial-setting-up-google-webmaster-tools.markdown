@@ -1,0 +1,19 @@
+---
+author: Cody Littlewood
+comments: true
+layout: post
+slug: tutorial-setting-up-google-webmaster-tools
+title: 'Tutorial: Setting up Google Webmaster Tools'
+wordpress_id: 77810816
+tag:
+- SEO
+- Tech
+---
+
+![](http://codylittlewood.me/wp-content/uploads/2011/05/Screen-shot-2011-05-30-at-8.26.50-PM.png)
+
+This may be a more basic overview for many, but this is great to help beginners set up Google Webmaster Tools from scratch. Google Webmaster Tools and Google Analytics are among the most effective ways to track your traffic, traffic sources, keywords, impressions in searches, visitor demographics and many more important facets of a successful website. This is extremely important to any webmaster, social media specialist, or [aspiring SEO](http://codylittlewood.me/marketing/search-engine-optimization/seo-university-best-resources-for-beginners/). For the [Google Analytics set up I've created a separate article](http://codylittlewood.me/uncategorized/tutorial-setting-up-google-analytics/).I will provide information implementing an average HTML/CSS website and a Wordpress site, but regardless of the type of site the code needs to end up in the same place. To get your brand new webmaster account follow these short steps.a. Have an existing Gmail account. If you don't have one, get one. These accounts are the key to the doorway that is Google online tools and resources.b. Create a new account with Webmaster Tools by going to:[http://www.google.com/webmasters/](https://www.google.com/webmasters/)If you are signed in with Gmail on the same browser then it will be a breeze. You need to verify that you are the owner or that you have permission to collect the information on these sites.**Webmaster Tools Verification Process:****1.** Once you are in Webmaster Tools click "Add a site" and enter the URL you prefer (with or without the www. We'll talk about 301 redirects later, but now is the time to make up your mind as to which you prefer and stick to it.)**2.** You will be taken to a page where it will give you a recommended menu. This changes site to site, but the method that works with absolutely any site and is the prefered method of most is the option called "Add a meta tag to your site."
+
+![](http://codylittlewood.me/wp-content/uploads/2011/05/Screen-shot-2011-05-30-at-7.59.46-PM-1024x218.png)
+
+If you don't see it immediately, click "Alternative methods" Keep this tab open for ease of access.**3. Follow the sub-steps below. Two sections- One for Wordpress and one for standard sites.****_Wordpress site: _****_a. _**In your dashboard click on "Plugins" and then "Add new." Install and activate a plugin called "Webmaster Tools Verification." If you need to know how to do this here is the [Wordpress solution for installing and activating plugins. ](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins)**_b. _**From your dashboard click on Tools and then "Webmaster Tools" from this sub-menu. From there you'll be able to copy and paste the code Google gave you earlier in step 2. You use _only the random appearing code within the quotation marks_ into the section that says, "Google Webmaster Tools Verification" This code that you need to copy and paste will be a random string of numbers and letters.**_c. _**In the Google tab you still have open, click "Verify" and you should be good to go!**_The average HTML/CSS website:_****_a. _**Open your favorite code editor and open the code to your site's homepage. You're going to paste the code from step 2 into the <head>.**_b. _**Copy the full code from step 2. You should paste the code right before _</head> _This is also known as being before the you close the head. It can be anywhere within the head, but it's best just to put it right before you close the head for organization purposes.**_c. _**Upload your updated code**_d. _**In the Google tab you still have open, click "Verify" and you should be good to go!
